@@ -6,17 +6,24 @@ This repository mantains a Python implementation of the Index of Non-Stationary 
 ## Theoretical Overview
 For a target signal $x(t)$, the INS is obtained considering its multitaper spectral representation $S_x(l,f)$ as
 
-$S_x(l,f) = \frac{1}{K} \sum_{k} S_x^{(h_k)} (l,f)$,
+$$
+  S_x(l,f) = \frac{1}{K} \sum_{k} S_x^{(h_k)} (l,f),
+$$
+
 
 where $l$ is the frame, $f$ is the frequency bin and  $S_x^{(h_k)} (l,f)$ is the spectrogram obtained considering the $k$-th Hermitian function $h_k(t)$ as the taper. 
 In other words, its is possible to represent $S_x^{(h_k)} (l,f)$ as
 
-$S_x^{(h_k)} (l,f) = \left| \int x(s) h_k(s-l) e^{-j 2\pi fs} \right|^2 $
+$$
+  S_x^{(h_k)} (l,f) = \left| \int x(s) h_k(s-l) e^{-j 2\pi fs} \right|^2 
+$$
 
 for $h_k(t) = e^{-t^2/2} H_k(t) / \sqrt{\pi^{1/2} 2^k k!}$,
 where $H_k(t)$ are Hermite polynomials obtained by recursion as
 
-$H_k(t) = 2t H_{k-1}(t) - 2(k-2)H_{k-2}(t),$
+$$
+H_k(t) = 2t H_{k-1}(t) - 2(k-2)H_{k-2}(t),
+$$
 
 for $k \ge 2$ and initializations of $H_0(t)=1$ and $H_1(t)=2t$. 
 
@@ -32,12 +39,14 @@ INS $\gt \gamma \rightarrow $ signal is non-stationary
 
 
 As an example, consider a Dog Bark acoustic source from the UrbanSound database [2]:
-<picture>
-  <img alt="Spectrogram" width="50%" align="center" src="https://www.linkpicture.com/q/dogs_spec_tight.jpeg">
-</picture>
-<picture>
-  <img alt="INS" width="50%" align="center" src="https://www.linkpicture.com/q/dogs_ins_tight_1.jpeg">
-</picture>
+<div align="center">
+  <picture>
+    <img alt="Spectrogram" width="50%" align="center" src="https://www.linkpicture.com/q/dogs_spec_tight.jpeg">
+  </picture>
+  <picture>
+    <img alt="INS" width="50%" align="center" src="https://www.linkpicture.com/q/dogs_ins_tight_1.jpeg">
+  </picture>
+</div>
 
 For this example, the signal attains a maximum INS value above the non-stationary threshold ($\gamma$), which means it presents a non-stationary behavior.
 

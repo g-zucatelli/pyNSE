@@ -60,7 +60,7 @@ This repository is under the GNU General Public License and the code is entirely
 
 [2] Justin Salamon, Christopher Jacoby, and Juan Pablo Bello, “A dataset and taxonomy for urban sound research,” in Proceedings of the 22nd ACM international conference on Multimedia, 2014, pp. 1041–1044.
 
-[3] G. Zucatelli and R. Coelho, "Adaptive reverberation absorption using non-stationary masking components detection for intelligibility improvement." IEEE Signal Processing Letters 27 (2019): 1-5.
+[3] G. Zucatelli and R. Coelho, "Adaptive reverberation absorption using non-stationary masking components detection for intelligibility improvement." IEEE Signal Processing Letters 27, 2019: pp. 1-5.
 
 [4] G. Zucatelli and R. Coelho, “Adaptive learning with surrogate assisted training models using limited labeled acoustic sample sequences,” in 2021 IEEE Statistical Signal Processing Workshop (SSP). IEEE, 2021, pp. 21–25
 

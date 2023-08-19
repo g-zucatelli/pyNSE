@@ -7,9 +7,8 @@ import pickle
 
 from tqdm import tqdm
 
-from auxiliary_functions import tf_representation as tf_rep
-from auxiliary_functions import stationary_test as stat_test
-
+from data_and_stats import tf_representation as tf_rep
+from data_and_stats import stationary_test as stat_test
 
 def get_args():
     parser = argparse.ArgumentParser(description="Arguments to run pyINS (python Index of Nons-Stationary).")

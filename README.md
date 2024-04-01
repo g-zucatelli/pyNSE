@@ -41,10 +41,10 @@ For each length $T_h$, a threshold $\gamma \approx 1$ is defined to keep the sta
 As an example, consider a Dog Bark acoustic source from the UrbanSound database [2]:
 <div align="center">
   <picture>
-    <img alt="Spectrogram" width="50%" align="center" src="https://www.linkpicture.com/q/dogs_spec_tight.jpeg">
+    <img alt="Spectrogram" width="45%" align="center" src="imgs/dogs_spec_tight.png">
   </picture>
   <picture>
-    <img alt="INS" width="50%" align="center" src="https://www.linkpicture.com/q/dogs_ins_tight_1.jpeg">
+    <img alt="INS" width="45%" align="center" src="imgs/dogs_ins_tight.png">
   </picture>
 </div>
 
@@ -64,4 +64,4 @@ This repository is under the GNU General Public License and the code is entirely
 
 [4] G. Zucatelli and R. Coelho, “Adaptive learning with surrogate assisted training models using limited labeled acoustic sample sequences,” in 2021 IEEE Statistical Signal Processing Workshop (SSP). IEEE, 2021, pp. 21–25
 
-[5] G. Zucatelli, R. Coelho, and L. Z ̃ao, “Adaptive learning with surrogate assisted training models for acoustic source classification,” IEEE Sensors Letters, vol. 3, no. 6, pp. 1–4, 2019.
+[5] G. Zucatelli, R. Coelho, and L. Zão, “Adaptive learning with surrogate assisted training models for acoustic source classification,” IEEE Sensors Letters, vol. 3, no. 6, pp. 1–4, 2019.

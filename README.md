@@ -2,7 +2,16 @@
 
 This repository mantains a Python implementation of the Index of Non-Stationary (INS) [1].
 
----
+For a INS default calculation run:
+> python pyINS.py -p \<filename\>.wav 
+
+Additional parse options can be assessed at `pyINS.py` file.
+
+<!-- Or parse a text list of paths for multiprocessing as:
+> python exec_ins.py -l \<text_filepaths_list\>.txt 
+
+Additional parse options can be assessed at `exec_ins.py` file. -->
+
 ## Theoretical Overview
 For a target signal $x(t)$, the INS is obtained considering its multitaper spectral representation $S_x(l,f)$ as
 

@@ -50,7 +50,7 @@ As an example, consider a Dog Bark acoustic source from the UrbanSound database 
 
 For this example, the signal attains a maximum INS value above the non-stationary threshold ($\gamma$), which means it presents a non-stationary behavior.
 
-The INS has been sucessfully adopted in different applications regarding real non-stationary acoustic signals such as adaptive reverberation absorption speech processing [3] and acoustic source classification [4][5].
+The INS has been sucessfully adopted in different applications regarding real non-stationary acoustic signals such as adaptive reverberation absorption speech processing [3] and acoustic source classification [4]-[7].
 
 This repository is under the GNU General Public License and the code is entirely based on referenced authors personal material.
 
@@ -65,3 +65,7 @@ This repository is under the GNU General Public License and the code is entirely
 [4] G. Zucatelli and R. Coelho, “Adaptive learning with surrogate assisted training models using limited labeled acoustic sample sequences,” in 2021 IEEE Statistical Signal Processing Workshop (SSP). IEEE, 2021, pp. 21–25
 
 [5] G. Zucatelli, R. Coelho, and L. Zão, “Adaptive learning with surrogate assisted training models for acoustic source classification,” IEEE Sensors Letters, vol. 3, no. 6, pp. 1–4, 2019.
+
+[6] G. Zucatelli, R. Barioni and E. Salles, “Non-Stationarity Objective Assessment for Acoustic Source Classification,” XLI SBRT 2023.
+
+[7] G. Zucatelli and R. Barioni, “Improving Non-Stationary Acoustic Source Classification with Metric Learning,” XLI SBRT 2023.

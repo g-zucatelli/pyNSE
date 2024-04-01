@@ -30,13 +30,16 @@ if __name__ == '__main__':
 
     # Read Audio
     [x, sr] = sf.read(PATH)
+    Nx = len(x)
 
     if len(x.shape)>1:
         x = x[:,1]
 
-    x = x/np.std(x)
-    Nx = len(x)
-
+    if np.std(x) > 0:
+        x = x/np.std(x)
+    else:
+        print("Signal STD not positive!")    
+    
     # TRF Options
     choixtfr = 'mtfr' # MultiTaper Choices
     Mh = 5

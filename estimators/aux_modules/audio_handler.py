@@ -14,7 +14,7 @@ class AudioHandler(object):
             data = data[:,1]
 
         data_rs = resampy.resample(data, SR, sample_rate)
-        return data_rs
+        return data_rs, sample_rate
     
     @staticmethod
     def soxi_get_length(filepath):

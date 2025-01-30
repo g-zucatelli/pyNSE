@@ -15,7 +15,7 @@ def get_args():
     parser.add_argument('-p', '--path', type=str, help="Path to .WAV signal or .TXT list of WAV files.")
     parser.add_argument('-e', '--estimator', type=str, default='INS', help=f'Estimator name. Available options are {ESTIMATORS.keys()}')
     parser.add_argument('-sr', '--sample_rate', type=int, default=16000, help=f'Sample rate. Available options are {ESTIMATORS.keys()}')
-    parser.add_argument('-obss', '--observed_scales', nargs='+', default=[0.2], help='List of observed scales relative to total length, values in (0,1]')
+    parser.add_argument('-obs', '--observed_scales', nargs='+', default=[0.2], help='List of observed scales relative to total length, values in (0,1]')
     parser.add_argument('-ns', '--num_surrogates', type=int, default=50, help="Number of surrogates for INS estimator.")
 
     return vars(parser.parse_args(args=sys.argv[1:]))

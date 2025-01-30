@@ -3,7 +3,7 @@ import scipy
 import numpy as np
 from tqdm import tqdm
 
-from estimators.base_estimator import BaseEstimator
+from estimators.base_estimator import BaseEstimator 
 
 from estimators.aux_modules import tf_representation as tf_rep
 from estimators.aux_modules import stationary_test as stat_test

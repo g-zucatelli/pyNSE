@@ -1,10 +1,10 @@
+import os
 import sys
 import argparse
 import numpy as np
 from tqdm.contrib.concurrent import process_map
-import os
 
-from estimators.INS import INS
+from estimators.ins import INS
 
 ESTIMATORS = {'INS': INS}
 AUDIO_SAMPLE_RATES = [8000, 16000, 32000, 441000, 48000, 96000]
@@ -36,7 +36,7 @@ if __name__ == '__main__':
         pass
 
     _, file_extension = os.path.splitext(input_path)
-    
+
     if file_extension == '.wav':
         estimator(input_path)
     else:

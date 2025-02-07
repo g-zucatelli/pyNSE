@@ -1,6 +1,6 @@
 # pyNSE
 
-This repository mantains Python implementation of objective Non-Stationary Estimators (NSE) applied to Acoustic Non-Stationary Assessment.
+This repository mantains Python implementation of objective Non-Stationarity Estimators (NSE) applied to Acoustic Non-Stationarity Assessment.
 
 For a target acoustic signal $x(t)$ of total length $T$, the non-stationarity estimation is calculated based on local observation window $T_h$ or observation scale $T_h/T \in (0,1]$.
 
